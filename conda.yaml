@@ -1,10 +1,12 @@
-name: byt
+name: byttts
 
 channels:
+  - defaults
   - conda-forge
 dependencies:
   - pip
   - ipython
+  - mlflow
   
   - pip:
     - -r requirements.txt
