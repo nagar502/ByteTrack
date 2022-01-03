@@ -5,6 +5,7 @@ import time
 import cv2
 import torch
 import mlflow
+import mlflow.pytorch
 from loguru import logger
 
 from yolox.data.data_augment import preproc
